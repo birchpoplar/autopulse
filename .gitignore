@@ -1,0 +1,79 @@
+# .gitignore
+
+# General
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Flask
+__pycache__/
+instance/
+*.sqlite
+*.sqlite-journal
+.env
+
+# React
+node_modules/
+/public/favicon.ico
+/public/logo192.png
+/public/logo512.png
+/public/manifest.json
+/public/robots.txt
+
+# React build artifacts
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.suo
+*.sln
+*.csproj
+*.vbproj
+*.vstemplate
+*.cache
+*.docstates
+*.user
+*.userosscache
+*.dbmdl
+*.blazor
+*.work
+*.ipr
+*.iws
+*.r*
+*.rproj
+*.Rhistory
+*.RData
+*.Ruserdata
+
+# Miscellaneous
+*.sass-cache/
+*.sass-cache/
+*.scss-cache/
+*.scss-cache/
+*.map
+*.css.map
+*.js.map
+*.lock
+*.pid
+*.seed
+*.pid.lock
+*.serverless
+*.sublime-workspace
+*.sublime-project
+*.komodoproject
+*.tm_project
+*.bzr
+*.orig
+*.rej
+*.bak
+
+# ignore virtualenv
+venv/
